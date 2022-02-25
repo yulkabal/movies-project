@@ -1,26 +1,26 @@
 import React from 'react';
 
 class Search extends React.Component {
-   state = {
-            search: 'matrix',
-            type: 'all',
-        };
-        
-   handleKey = (event) => {
+    state = {
+        search: 'matrix',
+        type: 'all',
+    };
+
+    handleKey = (event) => {
         if (event.key === 'Enter') {
             this.props.moviesSearch(this.state.search, this.state.type);
         }
     };
 
-   handleFilter = (event) => {
+    handleFilter = (event) => {
         this.setState(
             () => ({ type: event.target.dataset.type }),
             () => {
-               this.props.moviesSearch(this.state.search, this.state.type);
+                this.props.moviesSearch(this.state.search, this.state.type);
             }
         );
     };
-   
+
     render() {
         return (
             <div className="row">

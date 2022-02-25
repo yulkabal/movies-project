@@ -6,6 +6,7 @@ function Movie(props) {
       Type: type,
       Poster
    } = props;
+   
    return <div id={imdbID} className="movie card">
       <div className="card">
          <div className="card-image">
