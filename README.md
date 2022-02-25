@@ -9,4 +9,4 @@
 </ul></h3>
 <h2><a href="https://yulkabal.github.io/movies-project/">View a demo</a></h2>
 <br>
-![screen](screnshoots/1.png)
+![screen](https://github.com/yulkabal/movies-project/blob/main/screnshoots/1.png)
